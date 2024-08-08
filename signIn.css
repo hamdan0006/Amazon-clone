@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: outfit;
+    background-color: #FFFFFF;
+  }
+  .logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+    margin-bottom: 20px;
+  }
+  .main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7vh;
+  }
+  .container {
+    width: 340px;
+ 
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+   border: 1px solid rgb(216, 216, 216);
+  }
+  
+  h2 {
+    text-align: start;
+    margin-bottom: 30px;
+    font-weight: 500;
+  }
+  label{
+    font-weight: 500;
+
+    font-size: 15px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+  }
+
+  input:focus{
+    outline: 1px solid blue;
+  }
+  
+  .info {
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .main-btn {
+    width: 100%;
+    padding: 8px;
+    background-color: #FFD814;
+    color: black;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .main-btn:hover {
+    background-color: #FCD200;
+  }
+  
+  .links {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .links p {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
